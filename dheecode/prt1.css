@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+background:#1f242d ;  
+color: white;
+  transform: scale(0);
+  animation: zoom-in 1s ease forwards;
+}
+@keyframes zoom-in {
+  100% {
+    transform: scale(1);
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100%;
+  padding: 25px 5%;
+}
+.logo {
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+}
+.navbar {
+  a {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+  }
+  a:hover {
+    border-color: #00ffcc;
+  }
+}
+.home {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 60px;
+  padding: 170px 10% 0;
+}
+.home-details {
+  h1 {
+    font-size: 40px;
+    line-height: 1;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10 px;
+  }
+  p {
+    color: white;
+    font-weight: 500;
+  }
+}
+.download-socials {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #333;
+  background: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px #fff;
+  font-weight: 500;
+  border-radius: 40px;
+  transition: 0.3s;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+.btn:hover {
+  background-color: white;
+  box-shadow: 0 0 20px #00ffff;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+.social-icons {
+  a {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.3s;
+    margin-top: 40px;
+  }
+
+  a:hover {
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 10px #00ffff;
+    color: #333;
+  }
+}
+a.active {
+  border-color: #00ffff;
+}
+
+.home-img {
+        .imgbox {
+    position: relative;
+    width: 20vw;
+    height: 19vw;
+    box-shadow: 0 0 20px #00ffcc;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+    
+
+  img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    
+  }
+    
+}

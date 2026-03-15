@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgba(0,0,0,0.7 ) url(https://img.freepik.com/premium-photo/pizza-slice-black-background-with-space-text-top-view_117255-563.jpg?semt=ais_hybrid&w=740&q=80) center center fixed ;
+    
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2{
+        text-transform: capitalize;
+        color:orangered;
+        margin-left: 40px;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    .navbar ul li{
+        display: inline-block;
+        padding: 18px;
+        text-transform: uppercase;
+    }
+    a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color:orangered;
+    padding: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    
+    }
+    a:hover{
+        color:orangered;
+        border-color:orangered;
+        
+    }
+    a.active{
+        color: orangered;
+        border-color:orangered ;
+    }
+    
+.navbar ul li  a:hover{
+        border-bottom: orangered;
+    }
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    h3{
+        font-family: sans-serif;
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-left: 30%;
+        color:#fff;
+        font-weight: bold;
+    
+    }
+    h1{
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-top: 10px;
+        color: #fff;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        margin-top: 17px;
+        color: white;
+        font-weight: bold;
+
+    }
+    .search input{
+        position: absolute;
+        margin-top: 5%;
+        margin-left:20%;
+
+    }
+    .search input{
+        outline: none;
+        border: none;
+        padding: 12px 40px;
+        size: 1em;
+        width: 30%;
+        border-radius: 20px;
+
+    }
+    .submit{
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 33%;
+
+    }
+    .submit a{
+        text-decoration: none ;
+        color:#fff;
+        border-radius: 20px;
+        padding: 12px 25px;
+        background-color: orangered;
+    }
+
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+html,body{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    background: #ecf0f3;
+}
+.icons a{
+    background: #ecf0f3;
+    position: relative;
+    height:60px ;
+    width: 60px;
+    margin: 0 10px;
+    border-radius:50%;
+    display: inline-flex;
+    text-decoration: none;
+    transform: all 0.3s ease;
+    box-shadow: -3px -3px 7px #ffffff,
+    3px 3px 5px #ceced1;
+
+}
+.icons a:hover:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #ecf0f3;
+    box-shadow: inset -3px -3px 7px #ffffff,
+                 inset 3px px 5px #cecece;
+
+}
+.icons a i{
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    line-height: 60px;
+}
+.icons a i:hover{
+    transform: scale(0.9);
+
+}
+.icons a:nth-child(1){
+    color: #426782;
+}
+.icons a:nth-child(2){
+    color:#1DA1F2;
+}
+
+.icons a:nth-child(3){
+    color: #E1306c;
+}
+
+.icons a:nth-child(4){
+    color:#ff0000;
+}
+
+.icons a:nth-child(5){
+    color: #333;
+}
+--------------------------------------------------------------------
+.bdy{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: #f2f2f2;
+    
+}
+nav{
+    width: 600px;
+    height: 60px;
+    border-radius: #fff;
+    background: #fff;
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.25);
+}
+nav label{
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    transform: all0.3s ease;
+    border-radius: 5px;
+    margin: 0 5px ;
+    color: #8e44ad;
+    cursor: pointer;
+    z-index: 1;
+
+}
+nav label:hover{
+    background: rgba(129, 26, 170, 0.3);
+}
+ nav label i{
+    margin-right:4px ;
+
+ }
+ .slider{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    
+ }
+
